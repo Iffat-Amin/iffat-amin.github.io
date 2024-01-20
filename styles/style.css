@@ -1,0 +1,52 @@
+.roboto{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+
+}
+.colour{
+    color:#7843e9;
+}
+.title {
+    font-size: calc(1.525rem+3.3vw);
+  }
+  .title_2 {
+    font-size: calc(1rem+3.3vw);
+  }
+  .para {
+    font-size: calc(0.525rem+3.3vw);
+  }
+  .button{
+    color: #7843e9;
+  }
+
+  .background{
+    /* background-image: url('/assets/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .skill{
+    /* border-radius: 5px;
+    border-color: black;
+    background-color: rgb(206, 201, 201);
+    color: white; */
+    width: 90px;
+    height: 50px;
+    font-weight: 500;
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .title {
+      font-size: 4rem;
+    }
+    .title_2 {
+        font-size: 3rem;
+      }
+    
+    .para {
+        font-size: 2rem;
+      }
+  }
