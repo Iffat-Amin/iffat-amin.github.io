@@ -1,1 +1,2 @@
-// All js goes here
+
+console.log("java script file");
