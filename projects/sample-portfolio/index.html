@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFFAT NABILA - Frontend Developer</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="pt-24 pb-24 position-fixed w-100 bb">
+        <div class="container row justify-content-space-between">
+            <div class="left-menu">
+                <div class="container pl-12">
+                    <img class="avatar" src="/images/avatar.png" alt="Avatar">&nbsp;IFFAT NABILA
+
+                </div>
+            </div>
+            <div class="text-align-right right-menu">
+                <div class="desktop-menu pr-12">
+                    <a href="#about" target="_blank" class="pl-24"><span class="menu-no">01.</span>About</a>
+                    <a href="#academic-credentials" target="_blank" class="pl-24"><span class="menu-no">02.</span>Academic Credentials</a>
+                    <a href="#projects" target="_blank" class="pl-24"><span class="menu-no">03.</span>Projects</a>
+                    <a href="#contacts" target="_blank" class="pl-24"><span class="menu-no">04.</span>Contact</a>
+                </div>
+
+                <div class="mobile-menu">
+                    <div class="row justify-content-right header__main-ham-menu-cont pr-16" onclick="toggleMenu()">
+                        <img src="/images/ham-menu.svg" alt="hamburger menu" id="menu-open"
+                            class="header__main-ham-menu">
+                        <img src="/images/ham-menu-close.svg" alt="hamburger menu close" id="menu-close"
+                            class="header__main-ham-menu-close d-none">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="position-relative w-100" id="mobile-menu">
+                <div id="menu-content" class="ham-menu-content col-12 w-100 d-none">
+                    <a href="#">About</a>
+                    <a href="#">Experience</a>
+                    <a href="#">Work</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- HERO BODY -->
+    <div class="row text-transform-uppercase home-hero text-align-center display-mobile ">
+        <div class="pl-12 pr-12">
+            <h2 class="intro-heading">HI, I am IFFAT NABILA</h2>
+            <p>Software Engineer, Frontend Developer</p>
+
+            <!-- Resume & Cover Letter Buttons -->
+        <div class="hero-buttons">
+            <a href="https://docs.google.com/document/d/1H9CXRtmjtallMUz3gd7QhBLV-Ff_C4el/edit?usp=sharing&ouid=112473629679485870699&rtpof=true&sd=true" download>Resume</a>
+            <a href="https://docs.google.com/document/d/1YffTTdJaQfJEur55fSVr7wy9mA2Rfii2/edit?usp=sharing&ouid=112473629679485870699&rtpof=true&sd=true" download>Cover Letter</a>
+        </div>
+        </div>
+
+    </div>
+    <div class="row text-transform-uppercase home-hero display-desktop mb-36">
+        <div class="hero-content text-align-center">
+            <h2 class="intro-heading">IFFAT NABILA</h2>
+            <h2 class="intro-heading">IFFAT NABILA</h2>
+            <p>Software Engineer, Frontend Developer</p>
+
+            <!-- Resume & Cover Letter Buttons -->
+        <div class="hero-buttons">
+            <a href="https://docs.google.com/document/d/1H9CXRtmjtallMUz3gd7QhBLV-Ff_C4el/edit?usp=sharing&ouid=112473629679485870699&rtpof=true&sd=true" download>Resume</a>
+            <a href="https://docs.google.com/document/d/1YffTTdJaQfJEur55fSVr7wy9mA2Rfii2/edit?usp=sharing&ouid=112473629679485870699&rtpof=true&sd=true" download>Cover Letter</a>
+        </div>
+        </div>
+
+        <div class="position-absolute hero-social p-16">
+            <a href="https://www.linkedin.com/in/iffataminnabila/" class="linkedin"><img src="/images/Logo-Linkedin.svg" alt="Logo Linkedin"></a>
+            <a href="https://github.com/Iffat-Amin"><img src="/images/Logo-Github.svg" alt="Logo Github"></a>
+            <a href="https://www.youtube.com/@iffatnabila194" class="youtube"><img src="/images/Logo-Youtube.svg"
+                    alt="Logo Youtube"></a>
+        </div>
+
+    </div>
+
+    <!-- SCROLL -->
+
+    <div class="scroll-container display-desktop">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+    </div>
+
+    <!-- ABOUT ME -->
+
+    <div id="about" class="container mb-84">
+        <div class="text-align-center mb-36">
+            <h2 class="section-header mb-36">About Me</h2>
+
+            <p class="p-16">Passionate frontend developer.My vision is to create intuitive, high-performance web applications that impact users positively.This section provides further details about myself and my
+                current proficiencies, primarily centered around programming and technology.</p>
+
+        </div>
+
+        <div class="row p-16">
+            <div class="col-12 col-sm-6 p-16 pr-36 mb-36">
+                <h3 class="pb-24">Get to know me!</h3>
+                <p class="pb-16">Experienced in both functional and OOP. Proficient in Java, C#, JavaScript, TypeScript.
+                </p>
+                <p class="mb-16">I am open to new opportunities where I can contribute and expand my knowledge. </p>
+
+                <p>Please feel free to
+                    reach out if you have a suitable opportunity that aligns with my
+                    skills and expertise.</p>
+
+            </div>
+            <div class="col-12 col-sm-6 p-16 pl-84 my-skills">
+                <h3 class="pb-24">My Skills!</h3>
+                <div id="skills" class="skills-container row">
+                    <div> <img src="/images/html-logo.png" alt="" width="22px"><span>&nbsp;HTML</span></div>
+                    <div> <img src="/images/css-logo.png" alt="" width="25px"><span>&nbsp;CSS</span></div>
+                    <div> <img src="/images/js-logo.png" alt="" width="20px"><span>&nbsp;JavaScript</span></div>
+                    <div> <img src="/images/typescript-logo.png" alt="" width="20px"><span>&nbsp;TypeScript</span></div>
+                    <div> <img src="/images/java-logo.png" alt="" width="25px"><span>&nbsp;Java</span></div>
+                    <div> <img src="/images/angular-logo.png" alt="" width="20px"><span>&nbsp;Angular</span></div>
+                    <div> <img src="/images/react-logo.png" alt="" width="20px"><span>&nbsp;React</span></div>
+                    <div> <img src="/images/nodejs-logo.png" alt="" width="20px"><span>&nbsp;NodeJS</span></div>
+                    <div> <img src="/images/MongoDb-logo.png" alt="" width="15px"><span>&nbsp;MongoDB</span></div>
+                    <div> <img src="/images/spring-boot-logo.png" alt="" width="20px"><span>&nbsp;Spring Boot</span>
+                    </div>
+                    <div> <img src="/images/scrum-logo.png" alt="" width="20px"><span>&nbsp;Scrum</span></div>
+                    <div> <img src="/images/mysql-logo.png" alt="" width="20px"><span>&nbsp;MySQL</span></div>
+                    <div> <img src="/images/oracle-logo.png" alt="" width="20px"><span>&nbsp;Oracle</span></div>
+                    <div> <img src="/images/php-logo.png" alt="" width="25px"><span>&nbsp;PHP</span></div>
+                    <div> <img src="/images/docker-logo.png" alt="" width="22px"><span>&nbsp;Docker</span></div>
+                    <div> <img src="/images/Jenkins-logo.png" alt="" width="22px"><span>&nbsp;Jenkins</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+  
+
+   <!-- ACADEMIC CREDENTIALS -->
+<section id="academic-credentials" class="container mb-84">
+    <div class="text-align-center mb-36">
+        <h2 class="section-header mb-36">Academic Credentials</h2>
+    </div>
+
+    <div class="credentials-container">
+        <button class="accordion">Advanced Diploma in Computer Programming and Analysis</button>
+        <div class="panel">
+            <p>George Brown College, Toronto</p>
+            <p>Graduating in June 2025</p>
+        </div>
+
+        <button class="accordion">Dean’s Award</button>
+        <div class="panel">
+            <p>Awarded for exceptional academic performance and leadership in the Computer Programming and Analysis.</p>
+        </div>
+
+        <button class="accordion">Open-Source Contributor (GitHub Projects & Community Forums)</button>
+        <div class="panel">
+            <p>Contributed to open-source repositories by fixing bugs, enhancing documentation, and developing new features.</p>
+            <p>Engaged in collaborative development using GitHub, Node.js, React, and Express.</p>
+        </div>
+
+        <button class="accordion">Hackathon Participant & Volunteer</button>
+        <div class="panel">
+            <p>Participated in college-hosted hackathons and coding challenges, working on innovative software solutions.</p>
+            <p>Assisted event organizers in managing registrations, and setting up workshops.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CAPSTONE PROJECT SECTION -->
+<section id="capstone-project" class="container mb-84">
+    <div class="text-align-center mb-36">
+        <h2 class="section-header mb-36">Capstone Project</h2>
+    </div>
+
+    <!-- Project Image & Overview -->
+    <div class="capstone-content">
+        <div class="capstone-image">
+            <img src="/images/careconnect-capstone.png" alt="CareConnect Medical Booking System">
+        </div>
+
+        <h3 class="pb-16">CareConnect Medical Appointment Booking System</h3>
+        <p>CareConnect is a <strong>comprehensive medical appointment booking system</strong> designed to streamline interactions between patients, doctors, and administrators.</p>
+
+        <!-- View Details Button -->
+        <button class="capstone-accordion">View Details</button>
+        <div class="capstone-panel">
+            <h3 class="pb-16">Project Overview</h3>
+            <p>CareConnect allows <strong>patients to schedule appointments</strong>, doctors to manage their schedules, and administrators to oversee the entire system efficiently.</p>
+            <br>
+            <h3 class="pb-16">Key Features</h3>
+
+            <div class="capstone-grid">
+                <div class="capstone-card">
+                    <h4>Patient Features</h4>
+                    <ul>
+                        <li>Secure authentication for patients.</li>
+                        <li>Easy scheduling and cancellation.</li>
+                        <li>View and edit profile details.</li>
+                    </ul>
+                </div>
+
+                <div class="capstone-card">
+                    <h4>Doctor Features</h4>
+                    <ul>
+                        <li>View appointments and patient info.</li>
+                        <li>Manage patient schedules.</li>
+                        <li>Update availability and details.</li>
+                    </ul>
+                </div>
+
+                <div class="capstone-card">
+                    <h4>Admin Features</h4>
+                    <ul>
+                        <li>View doctors, patients, and appointment stats.</li>
+                        <li>Add and manage doctor profiles.</li>
+                        <li>Monitor and cancel appointments.</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+
+            <h3 class="pb-16">Technologies Used</h3>
+            <p>CareConnect is built using <strong>MongoDB, Express, React, and Node.js (MERN Stack)</strong> to provide a seamless and efficient experience.</p>
+            <br>
+
+            <h3 class="pb-16">Project Vision</h3>
+            <p>The goal of CareConnect is to <strong>enhance patient-doctor interactions</strong> by providing a <strong>user-friendly</strong> and <strong>efficient</strong> online appointment booking system.</p>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="container project-container mb-84">
+    <div class="text-align-center mb-36">
+        <h2 class="section-header mb-36">Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="/images/Foodfolio.png" alt="Project 1">
+                <div class="overlay">
+                    <p>a personal restaurant guide Android application, enabling users to explore, save, and manage their favorite dining spots with an intuitive and responsive user interface.</p>
+                    <a href="https://github.com/ammar-sultan/FoodFolio-Prototype/tree/main" target="_blank" class="project-link">🔗 View Code</a>
+                </div>
+            </div>
+            <h3>FoodFolio</h3>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="/images/Learning Path.png" alt="Project 2">
+                <div class="overlay">
+                    <p>Mostly worked on frontend. Built the whole website base with HTML, CSS and JavaScript </p>
+                    <a href="https://github.com/Iffat-Amin/learning-path-site" target="_blank" class="project-link">🔗 View Code</a>
+                </div>
+            </div>
+            <h3>Learning Path Website</h3>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="/images/Wanderlust.png" alt="Project 3">
+                <div class="overlay">
+                    <p>An user-friendly and responsive frontend website for a travel application, ensuring optimal user experience and functionality across various devices.</p>
+                    <a href="https://github.com/iffat-nabila/careconnect" target="_blank" class="project-link">🔗 View Code</a>
+                </div>
+            </div>
+            <h3>Wanderlust</h3>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="/images/ShoppingList.png" alt="Project 4">
+                <div class="overlay">
+                    <p>A shopping list app with tax calculations and categorized items.</p>
+                    <a href="https://github.com/Iffat-Amin/ShoppingListApp" target="_blank" class="project-link">🔗 View Code</a>
+                </div>
+            </div>
+            <h3>Advanced Shopping List Manager</h3>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container h-100" id="contacts">
+            <div class="row footer-content  ml-12 mr-12">
+                <div class="col-12 col-sm-6 pr-24 mb-36">
+                    <div class="container">
+                        <p class="footer-heading text-transform-uppercase fw-600">IFFAT NABILA</p>
+                        <p class="footer-desc">A Frontend Developer with a passion for coding and a strong desire to
+                            contribute innovative solutions to the field.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 right-box  mb-36">
+                    <p class="footer-heading text-transform-uppercase fw-600">Social</p>
+                    <div class="footer-icon">
+                        <a href="https://www.linkedin.com/in/iffataminnabila/ class="linkedin"><img
+                                src="/images/linkedin-ico.png" alt="Logo Linkedin"></a>
+                        <a href="https://github.com/Iffat-Amin"><img src="/images/github-ico.png"
+                                alt="Logo Github"></a>
+                        <a href="https://www.youtube.com/@iffatnabila194" class="youtube"><img src="/images/yt-ico.png"
+                                alt="Logo Youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                © Copyright
+                <script>document.write(new Date().getFullYear())</script>. Made by
+                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/iffataminnabila/">Iffat
+                    Nabila</a>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
