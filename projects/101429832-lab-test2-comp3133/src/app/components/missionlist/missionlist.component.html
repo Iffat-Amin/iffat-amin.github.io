@@ -1,0 +1,15 @@
+
+<mat-card class="mat-elevation-z3"  *ngFor="let launch of launches" (click)="goToDetails(launch.flight_number)" style="margin: 10px; cursor: pointer; ">
+    <img mat-card-image [src]="launch.links.mission_patch_small" alt="Mission Patch" height="100" />
+    <mat-card-title style="color: beige;">{{ launch.mission_name }} ({{ launch.launch_year }})</mat-card-title>
+    <mat-card-subtitle>Rocket: {{ launch.rocket.rocket_name }} - {{ launch.rocket.rocket_type }}</mat-card-subtitle>
+    <mat-card-content>
+      <p style="color: beige;">{{ launch.details || 'No details available.' }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-button href="{{ launch.links.article_link }}" target="_blank">Article</a>
+      <a mat-button href="{{ launch.links.wikipedia }}" target="_blank">Wikipedia</a>
+      <a mat-button href="{{ launch.links.video_link }}" target="_blank">Video</a>
+    </mat-card-actions>
+  </mat-card>
+  

@@ -1,0 +1,32 @@
+.details-wrapper {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  mat-card {
+    padding: 16px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  mat-card img {
+    max-height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  mat-card-title {
+    margin-top: 16px;
+  }
+  
+  mat-card-content p {
+    margin: 8px 0;
+  }
+  
+  mat-card-actions a {
+    margin-right: 12px;
+  }
+  

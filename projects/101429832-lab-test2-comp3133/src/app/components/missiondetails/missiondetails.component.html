@@ -1,0 +1,13 @@
+<mat-card *ngIf="mission">
+    <img mat-card-image [src]="mission.links.mission_patch_small" alt="Mission Patch" />
+    <mat-card-title>{{ mission.mission_name }}</mat-card-title>
+    <mat-card-content>
+      <p ><strong>Flight #:</strong> {{ mission.flight_number }}</p>
+      <p><strong>Year:</strong> {{ mission.launch_year }}</p>
+      <p><strong>Rocket:</strong> {{ mission.rocket.rocket_name }} ({{ mission.rocket.rocket_type }})</p>
+      <p><strong>Details:</strong> {{ mission.details }}</p>
+    </mat-card-content>
+  </mat-card>
+  <button mat-button color="warn" routerLink="/">← Back to Missions</button>
+
+  

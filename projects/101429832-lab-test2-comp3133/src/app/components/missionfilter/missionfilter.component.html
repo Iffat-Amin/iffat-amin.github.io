@@ -1,0 +1,18 @@
+<div class="filter-container">
+  <mat-card>
+    <mat-card-title>Filter SpaceX Missions by Launch Year</mat-card-title>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter Launch Year</mat-label>
+      <input matInput [(ngModel)]="year" placeholder="e.g. 2010">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="filterMissions()">Filter</button>
+  </mat-card>
+
+  <div *ngIf="launches.length > 0" class="result-section">
+    <mat-card *ngFor="let launch of launches" class="result-card">
+      <mat-card-title>{{ launch.mission_name }} ({{ launch.launch_year }})</mat-card-title>
+    </mat-card>
+  </div>
+</div>
